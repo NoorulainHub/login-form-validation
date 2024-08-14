@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form submited</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <img class="wave" src="wave.png">
+    <div class="container">
+        <div class="img">
+            <img src="bg (1).svg">
+        </div>
+        <div class="h2">
+            <h1 class="last-head">Your form has been submitted!
+                <input type="button" class="btnl" value="Share Your Feedback" id="openbtn" />
+            </h1>
+            <img class="love" src="undraw_love_it_heart_dxlp.svg" alt="">
+        </div>
+
+       
+        <div id="surveyModal" class="modal">
+
+           
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>We Value Your Feedback!</h2>
+                <p>Please take a moment to complete our survey.</p>
+
+                
+                <form id="surveyForm">
+                    <label for="rating">How would you rate your experience?</label><br>
+                    <select id="rating" name="rating">
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="average">Average</option>
+                        <option value="poor">Poor</option>
+                    </select><br><br>
+
+                    <label for="feedback">Additional Comments:</label><br>
+                    <textarea id="feedback" name="feedback" rows="5" cols="50" placeholder="Your feedback..."></textarea><br><br>
+
+                    <input type="submit" class="btn2" value="Submit" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="project.js"></script>
+</body>
+      
+</body>
+</html>
